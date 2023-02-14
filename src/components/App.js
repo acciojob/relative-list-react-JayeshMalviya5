@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div id="main">
       <div>
-        <ol key="relativeList">
+        <ol id="relativeList">
           {relativeList.map((relative) => (
             <li id={relative.key}>{relative.name}</li>
           ))}
